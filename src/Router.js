@@ -13,23 +13,23 @@ import LandingPage from "./LandingPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/responsive-frontend",
     element: <United />,
     children: [
       {
-        path: "/",
+        path: "/responsive-frontend",
         element: <LandingPage />,
       },
       {
-        path: "/form",
+        path: "/responsive-frontend/form",
         element: <FU />,
       },
       {
-        path: "/tribute",
+        path: "/responsive-frontend/tribute",
         element: <TributePage />,
       },
       {
-        path: "/technical",
+        path: "/responsive-frontend/technical",
         element: <TechnicalDocumentaion />,
       },
     ],
