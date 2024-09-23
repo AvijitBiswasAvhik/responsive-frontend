@@ -1,0 +1,42 @@
+#tecnical-provider{
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+#nav-area{
+    background-color: #ffffff;
+    height: 300px;
+    overflow-y: scroll;
+    border: 2px solid grey;
+
+}
+@media screen and (min-width: 768px){
+    #nav-area{
+        position: sticky;
+        top: 5px;
+        height: 100%;
+    }
+}
+.main-section{
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    line-height: 1.6rem;
+}
+.main-section-header {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0a0a0a;
+}
+code{
+    display: block;
+    padding: 15px;
+    background-color: #0a0a0a;
+    color: #02ff89e8;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    line-height: 2;
+    margin: 10px;
+    border-radius: 5px;
+}

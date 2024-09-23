@@ -1,0 +1,55 @@
+.form-check-label {
+  display: block;
+}
+.input-radio {
+  margin-right: 5px;
+}
+.input-radio :checked{
+    color: rgb(158, 2, 62) !important;
+}
+.prefer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.prefer-box label input{
+    margin-right:  10px;
+}
+#comments{
+    width: 100%;
+
+}
+.App{
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.App::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('./form-background.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.2); /* Darken the background */
+    z-index: 1; /* Make sure it stays behind the content */
+    background-attachment: fixed;
+}
+.form-cotainer{
+    background-color: #272745;
+    z-index: 1;
+
+}
+.form-header{
+    z-index: 1;
+    position: relative;
+    padding: 5px;
+    opacity: .4;
+}
