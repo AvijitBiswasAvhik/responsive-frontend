@@ -12,6 +12,7 @@ import {
 import LPBRAND from "./LPBrand.jpg";
 import { Outlet } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function LandingPage() {
   let [active, setActive] = useState({ menu: false });
@@ -126,6 +127,11 @@ export default function LandingPage() {
             <div className="menu-item">
               <Link to="/tribute" className="nav-link">
                 Tribute
+              </Link>
+            </div>
+            <div className="menu-item">
+              <Link to="/home" className="nav-link">
+                Home
               </Link>
             </div>
           </div>
