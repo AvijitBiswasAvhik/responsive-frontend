@@ -10,15 +10,21 @@ import TributePage from "./tribute";
 import United from "./united";
 import TechnicalDocumentaion from "./TechnicalDocumentaion";
 import LandingPage from "./LandingPage";
+import Landing from "./Landing";
+import Portfolio from "./Portfolio";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <United />,
+    element: <LandingPage />,
     children: [
       {
         path: "/",
-        element: <LandingPage />,
+        element: <Portfolio />,
+      },
+      {
+        path: "/lp-page",
+        element: <Landing />,
       },
       {
         path: "/form",

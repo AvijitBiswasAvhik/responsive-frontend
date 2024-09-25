@@ -3,6 +3,9 @@ body {
 }
 .navigation-bar {
   background: #f8f9fa;
+  box-shadow: 0 2px 3px grey ;
+  z-index: 1000;
+
 }
 .brand-image-container {
   height: 50px;
