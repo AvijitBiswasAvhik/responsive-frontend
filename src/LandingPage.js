@@ -130,7 +130,7 @@ export default function LandingPage() {
               </Link>
             </div>
             <div className="menu-item">
-              <Link to="/home" className="nav-link">
+              <Link to="/" className="nav-link">
                 Home
               </Link>
             </div>
