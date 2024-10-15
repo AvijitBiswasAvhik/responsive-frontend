@@ -54,7 +54,7 @@ export default function LandingPage() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Building aa portfolio page</title>
+          <title>Building a portfolio WebSite for FreeCodeCamp</title>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
