@@ -169,6 +169,7 @@ export default function LandingPage() {
               border="0"
             />
           </a>
+          hello
         </span>
       </footer>
     </>
