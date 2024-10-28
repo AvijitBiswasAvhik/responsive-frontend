@@ -109,8 +109,7 @@ export default function Portfolio() {
                   
       </section>
      <div>
-     Total Visit: <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
+     Total Visit:<a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=17093463&style=0001&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                    
                                     
                                         
