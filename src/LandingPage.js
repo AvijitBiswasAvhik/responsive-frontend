@@ -12,7 +12,7 @@ import {
 import LPBRAND from "./LPBrand.jpg";
 import { Outlet } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 export default function LandingPage() {
   let [active, setActive] = useState({ menu: false });
@@ -29,9 +29,8 @@ export default function LandingPage() {
   }, [active.menu]);
 
   useEffect(() => {
-    
-      let lastScrollTop = 0;
-      window.addEventListener("scroll", () => {
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", () => {
       let currentScroll =
         window.pageYOffset || document.documentElement.scrollTop;
 
@@ -160,6 +159,17 @@ export default function LandingPage() {
           </li>
         </ul>
         <span>Copyright 2016, Original Trombones</span>
+        <span>
+          Total Visit:
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=17093463&style=0001&nbdigits=5&type=page&initCount=0"
+              title="Counter Widget"
+              Alt="Visit counter For Websites"
+              border="0"
+            />
+          </a>
+        </span>
       </footer>
     </>
   );
